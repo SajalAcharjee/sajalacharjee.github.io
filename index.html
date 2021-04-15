@@ -36,14 +36,14 @@
 
 
   <!--------------------------- this is navbar section ----------------------->
-  <section>
+  <section class="position">
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary ml-0">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="position: sticky;">
+        <ul class=" navbar-nav me-auto mb-2 mb-lg-0 m-auto">
           <li class="nav-item">
             <a class="nav-link " aria-current="page" href="#about">ABOUT</a>
           </li>
@@ -54,10 +54,10 @@
             <a class="nav-link" href="#portfolio">PORTFOLIO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">CONTACT</a>
+            <a class="nav-link" href="#gallery">GALLERY</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#gallery">GALLERY</a>
+            <a class="nav-link" href="#contact">CONTACT</a>
           </li>
         </ul>
       </div>
@@ -68,19 +68,24 @@
 
   <!--------------------------- this is about section ---------------------------------->
   <section class="about-container py-3" id="about">
-    <div class="container Ab-container p-2 text-white">
+    <div class="container Ab-container p-3 text-white">
       <h5 style="font-size: 2vw;"><b>ABOUT</b></h5>
     </div>
     <div class="container-fluid">
       <div class="row justify-content-center align-item-center text-white p-5">
         <div class="col-md-9">
-          <h2><b>Sajal Acharjee</b></h2>
-          <h3>Lecturer, Web Developer</h3>
-          <p style="text-align: justify;" draggable="true">I am very simple person. I always believe that success depends on hard labour and industry. No one can reach to his goal without industrious.
-           I always try to help others in different ways. <br>One valuable hobby of mine is encouraging the people how to be educated with IT knowledge.
-           My another intest is in tourism and to connect with social work.<br>
-           Before starting any task or any project I always think of its good and bad sites. I discuss about the matter with others whom I believe.<br>
-           I always believe on my parents after God. By the grace of Almighty I think I will be success in every step of my life. <br>adipisicing elit. Sunt numquam provident esse molestiae, ea quia eos tempore odit incidunt aliquid
+          <h2 draggable="true"><b>Sajal Acharjee</b></h2>
+          <h3 draggable="true">Lecturer, Web Developer</h3>
+          <p style="text-align: justify;" draggable="true">I am very simple person. I always believe that success
+            depends on hard labour and industry. No one can reach to his goal without industrious.
+            I always try to help others in different ways. <br>One valuable hobby of mine is encouraging the people how
+            to be educated with IT knowledge.
+            My another intest is in tourism and to connect with social work.<br>
+            Before starting any task or any project I always think of its good and bad sites. I discuss about the matter
+            with others whom I believe.<br>
+            I always believe on my parents after God. By the grace of Almighty I think I will be success in every step
+            of my life. <br>adipisicing elit. Sunt numquam provident esse molestiae, ea quia eos tempore odit incidunt
+            aliquid
             recusandae! Ex aliquid ullam laudantium dolorum dolor fugiat dolorem quam.<br>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde veniam fugit minima, ut, rem corporis nulla at
             voluptatem, nam sunt quas enim dolore explicabo quos. Repudiandae voluptatum a esse assumenda ab iste non
@@ -107,14 +112,14 @@
 
   <section class="education-container py-3" id="education">
 
-    <div class="container edu-container p-2">
+    <div class="container edu-container p-3 text-white">
       <h5 style="font-size: 2vw;"><b>EDUCATION</b></h5>
     </div>
 
     <div class="container-fluid">
 
       <div class="row justify-content-center align-item-center p-5">
-        
+
         <div class="col-md-4 text-color title p-4">
           <h1 style="font-family:cursive;"><b>SSC</b></h1>
           <h4><b>Science</b></h4>
@@ -132,7 +137,7 @@
 
 
       <div class="row justify-content-center align-item-center p-4">
-        
+
         <div class="col-md-4 text-color title p-4">
           <h1 style="font-family:cursive;"><b>HSC</b></h1>
           <h4><b>Science</b></h4>
@@ -149,7 +154,7 @@
       </div>
 
       <div class="row justify-content-center align-item-center p-4">
-        
+
         <div class="col-md-4 text-color title p-4">
           <h3 style="font-family:cursive;"><b>BSC</b></h3>
           <h6><b>Computer Sceience & <br>Engineering</b></h6>
@@ -170,6 +175,143 @@
   <hr style="color: white; height: 5px;">
   <!--------------------------- this is end of the education section ----------------------->
 
+
+  <!--------------------------- this is Portfolio section ---------------------------------->
+
+  <section class="portfolio-container py-3" id="portfolio">
+
+    <div class="container port-container p-3 text-white">
+      <h5 style="font-size: 2vw;"><b>PorTfolio</b></h5>
+    </div>
+
+    <div class="container-fluid">
+
+      <div class="row py-5">
+        <div class="col-md-4 text-color p-5 mx-auto" style="width: 20rem;">
+          <div class="card portfolio-card" style="background: rgb(218, 220, 224); height: 18rem;">
+            <div class="card-body">
+              <img src="image/html.png" class="img-fluid rounded  port-image"><br><br>
+              <h1 draggable="true" style="font-family:cursive;text-align: center; font-size: 3vw;"><b>HTML</b></h1>
+              <p draggable="true" style="text-align: center; font-size: 1.5vw;"><b>I have much ability to work with HTML</b></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 text-color p-5 mx-auto" style="width: 20rem;">
+          <div class="card portfolio-card" style="background: rgb(218, 220, 224); height: 18rem;">
+            <div class="card-body">
+              <img src="image/css.png" class="img-fluid rounded port-image"><br><br>
+              <h1 draggable="true" style="font-family:cursive;text-align: center; font-size: 3vw;"><b>CSS3</b></h1>
+              <p draggable="true" style="text-align: center; font-size: 1.5vw;"><b>I have much ability to work with CSS3</b></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 text-color p-5 mx-auto" style="width: 20rem;">
+          <div class="card portfolio-card" style="background: rgb(218, 220, 224); height: 18rem;">
+            <div class="card-body">
+              <img src="image/bootstrap1.jpg" class="img-fluid rounded port-image"><br><br>
+              <h1 draggable="true" style="font-family:cursive;text-align: center; font-size: 2vw;"><b>BOOTSTRAP</b></h1>
+              <p draggable="true" style="text-align: center; font-size: 1.5vw;"><b>I have much ability to work with BOOTSTRP</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 text-color p-5 mx-auto" style="width: 20rem;">
+          <div class="card portfolio-card" style="background: rgb(218, 220, 224); height: 18rem;">
+            <div class="card-body">
+              <img src="image/html.png" class="img-fluid rounded  port-image"><br><br>
+              <h1 draggable="true" style="font-family:cursive;text-align: center; font-size: 3vw;"><b>HTML</b></h1>
+              <p draggable="true" style="text-align: center; font-size: 1.5vw;"><b>I have much ability to work with HTML</b></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 text-color p-5 mx-auto" style="width: 20rem;">
+          <div class="card portfolio-card" style="background: rgb(218, 220, 224); height: 18rem;">
+            <div class="card-body">
+              <img src="image/css.png" class="img-fluid rounded port-image"><br><br>
+              <h1 draggable="true" style="font-family:cursive;text-align: center; font-size: 3vw;"><b>CSS3</b></h1>
+              <p draggable="true" style="text-align: center; font-size: 1.5vw;"><b>I have much ability to work with CSS3</b></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-mS-4 text-color p-5 mx-auto" style="width: 20rem;">
+          <div class="card portfolio-card" style="background: rgb(218, 220, 224); height: 18rem;">
+            <div class="card-body">
+              <img src="image/bootstrap1.jpg" class="img-fluid rounded port-image"><br><br>
+              <h1 draggable="true" style="font-family:cursive;text-align: center; font-size: 2vw;"><b>BOOTSTRAP</b></h1>
+              <p draggable="true" style="text-align: center; font-size: 1.5vw;"><b>I have much ability to work with BOOTSTRP</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <hr style="color: white; height: 5px;">
+  <!--------------------------- this is end of the Portfolio section ----------------------->
+
+
+
+  <!--------------------------- this is Gallery section ---------------------------------->
+
+  <section class="gallery-container py-3" id="gallery">
+
+    <div class="container gall-container p-3 text-white">
+      <h5 style="font-size: 2vw;"><b>Gallery</b></h5>
+    </div>
+
+    <div class="container-fluid">
+
+      <div class="row py-4">
+        <div class="col-md-4 p-2 m-4" style="height: 600px; width: 400px;">
+
+          <img src="image/my-image1.png" class=" img-fluid border"  style="background: rgb(82, 120, 131); height: 600px; width: 400px;border-radius: 40px;">
+        
+        </div>
+
+        <div class="col-md-4 p-2 m-4" style="height: 600px; width: 400px;">
+
+          <img src="image/my-image-2.PNG" class=" img-fluid"  style="height: 600px; width: 400px;border-radius: 40px;">
+        
+        </div>
+
+        <div class="col-md-4 p-2 m-4" style="height: 600px; width: 400px;">
+          <img src="image/my-image3.PNG" class=" img-fluid"  style="height: 600px; width: 400px; border-radius: 40px;">
+        </div>
+
+      </div>
+
+      <div class="row py-2">
+        <div class="col-md-4 p-2 m-4" style="height: 600px; width: 400px;">
+
+          <img src="image/my-image-4.PNG" class=" img-fluid"  style="height: 600px; width: 400px; border-radius: 40px;">
+        
+        </div>
+
+        <div class="col-md-4 p-2 m-4" style="height: 600px; width: 400px;">
+
+          <img src="image/my-image5.PNG" class=" img-fluid"  style="height: 600px; width: 400px; border-radius: 40px;">
+        
+        </div>
+
+        <div class="col-md-4 p-2 m-4" style="height: 600px; width: 400px;">
+          <img src=" " alt="No image" class=" img-fluid"  style="height: 600px; width: 400px; border-radius: 40px;">
+        </div>
+        
+      </div>
+
+     
+
+     
+    </div>
+  </section>
+  <hr style="color: white; height: 5px;">
+  <!--------------------------- this is end of the Gallery section ----------------------->
 
 
 

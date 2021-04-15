@@ -35,6 +35,11 @@ body{
     font-size: 2vw;
     letter-spacing: 3px;
 }
+.position{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
 
 /*this is navbar section */
 
@@ -90,3 +95,56 @@ body{
     font-weight: 600;
 }
 /* this is end of the education section */
+
+
+/* this is Portfolio section */
+
+.portfolio-container{
+    background: rgb(218, 220, 224);
+}
+
+.port-container{
+    background: rgba(30, 74, 80, 0.356);
+    letter-spacing: 10px;
+    width: 30%;
+    border-radius: 30px 30px;
+    color: #002B71;
+    text-align: center;
+}
+
+.port-image{
+    margin-left: 20%;
+    height: 125px;
+}
+
+.portfolio-card{
+    box-shadow: 10px 0 10px lightslategray;
+}
+/* this is end of the Portfolio section */
+
+
+/* this is Gallery section */
+
+.gallery-container{
+    background: rgb(123, 141, 179);
+}
+
+.gall-container{
+    background: rgba(30, 74, 80, 0.356);
+    letter-spacing: 10px;
+    width: 50%;
+    border-radius: 30px 30px;
+    color: #002B71;
+    text-align: center;
+}
+
+.gallery-image{
+    border: 2px solid crimson;
+    height: 350px;
+    margin-left: 20%;
+}
+
+.gallery-card{
+    box-shadow: 10px 0 10px lightslategray;
+}
+/* this is end of the Portfolio section */
