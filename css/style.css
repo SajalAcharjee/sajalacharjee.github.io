@@ -147,4 +147,80 @@ body{
 .gallery-card{
     box-shadow: 10px 0 10px lightslategray;
 }
-/* this is end of the Portfolio section */
+/* this is end of the gallery section */
+
+
+/* this is Contact section */
+
+.contact-container{
+    background: rgb(218, 220, 224);
+}
+
+.cont-container{
+    background: rgba(19, 55, 59, 0.527);
+    letter-spacing: 10px;
+    width: 30%;
+    border-radius: 30px 30px;
+    color: #002B71;
+    text-align: center;
+}
+
+.cont-image{
+    margin-left: 20%;
+    height: 125px;
+}
+
+.contact-card{
+    box-shadow: 10px 0 10px lightslategray;
+}
+
+.form-input{
+    width: 100%;
+    padding: 4px;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    font-size: 2vw;
+}
+
+.textarea-input{
+    width: 100%;
+    padding: 30px;
+    border-radius: 4px;
+    letter-spacing: 2px;
+    border-radius: 8px;
+}
+
+.form-background{
+    margin: 50px;
+    border-radius: 8px;
+    background-color: rgb(30, 48, 48);
+}
+
+.form-button{
+    letter-spacing: 3px;
+    font-size: 2vw;
+    background: rgba(12, 182, 182, 0.527);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.form-button:hover{
+    background: cornflowerblue;
+}
+/* this is end of the Contact section */
+
+
+/* this is footer section */
+
+.footer-link a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.footer-link a h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footer-link-style{
+    height: 40px;
+    width: 40px;
+}
