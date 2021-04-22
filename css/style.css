@@ -69,7 +69,7 @@ body{
     background: rgba(30, 74, 80, 0.356);
     text-align: center;
     letter-spacing: 10px;
-    width: 30%;
+    width: 50%;
     border-radius: 30px 30px;
     color: #002B71;
 }
@@ -106,7 +106,7 @@ body{
 .port-container{
     background: rgba(30, 74, 80, 0.356);
     letter-spacing: 10px;
-    width: 30%;
+    width: 50%;
     border-radius: 30px 30px;
     color: #002B71;
     text-align: center;
@@ -159,7 +159,7 @@ body{
 .cont-container{
     background: rgba(19, 55, 59, 0.527);
     letter-spacing: 10px;
-    width: 30%;
+    width: 50%;
     border-radius: 30px 30px;
     color: #002B71;
     text-align: center;
